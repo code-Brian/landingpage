@@ -1,0 +1,99 @@
+body {
+  height: 100vh;
+  margin: 0;
+
+  background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+header nav {
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-right: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding:0 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 250px;
+}
+
+.heroimg {
+  
+}
+
+.hero button {
+  width: 150px;
+}
+
+.info {
+  background-color: #F9FAF8;
+  color: #1F2937;
+}
+
+.imgcard {
+  height: 100px;
+  width: 100px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.call-to-action {
+  background-color: #F9FAF8;
+}
+
+.banner {
+  background-color: #2882F6;
+  color: #F9FAF8;
+}
