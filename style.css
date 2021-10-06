@@ -34,6 +34,14 @@ a {
   color: #F9FAF8;
 }
 
+a:hover {
+  color: #3882F6;
+}
+
+a:active {
+  color: #0C66f6;
+}
+
 footer {
   background-color: #1F2937;
   color: #F9FAF8;
@@ -167,7 +175,7 @@ footer {
   width: 500px;
 }
 .quotetext {
-  font-size: 36px;
+  font-size: 24px;
   font-style: italic;
   font-weight: 100;
   margin-bottom: 5px;
