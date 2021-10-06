@@ -190,21 +190,57 @@ footer {
 
 .call-to-action-div {
   display: flex;
-  flex: 1 600px;
+  flex: 1;
+  min-width: 700px;
   align-items: center;
   justify-content: center;
 }
+
+.calltextmain {
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.calltextsecond {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #E5E7EB;
+  margin: 0;
+}
 .banner {
   display: flex;
-  flex-wrap: wrap;  
-  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 700px;
+  border-radius: 7px;
   background-color: #2882F6;
   color: #F9FAF8;
+  height: 100px;
+}
+
+.banner button {
+  border:#F9FAF8 solid 2px;
+  border-radius: 7px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.banner button:hover {
+  background-color:#0c66f6;
+}
+
+.banner button:active {
+  border: #E5E7EB solid 2px;
 }
 
 .footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex: 1 75px;
 }
