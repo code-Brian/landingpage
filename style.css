@@ -66,7 +66,21 @@ footer {
 }
 
 .hero button {
+  border:#3882F6 solid 2px;
+  border-radius: 7px;
+  background-color: #3882F6;
+  color: #F9FAF8;
   width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.hero button:hover {
+  background-color: #3881f675;
+}
+
+.hero button:active {
+  border: #3881f675 solid 2px;
 }
 
 .herodiv {
@@ -91,24 +105,28 @@ footer {
 }
 
 .headerlogotext {
+  margin-right: 72px;
   font-size: 24px;
   color: #F9FAF8;
 }
 
 .info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
+  flex: 1 250px;
   background-color: #F9FAF8;
   color: #1F2937;
 }
 
 .imgcap {
-  margin-top: 4px;
+  margin-top: 2px;
+  font-size: 11px;
 }
 
 .infoheadertext {
+  flex: 1 0 auto;
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
@@ -131,28 +149,62 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
+  width: 600px;
 }
 
 .quote {
   display: flex;
-  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex: 1 250px;
   background-color: #E5E7EB;
   color: #1F2937;
 }
 
+.quotediv {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.quotetext {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.quoteauthor {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
 .call-to-action {
   display: flex;
-  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex: 1 250px;
   background-color: #F9FAF8;
 }
 
+.call-to-action-div {
+  display: flex;
+  flex: 1 600px;
+  align-items: center;
+  justify-content: center;
+}
 .banner {
+  display: flex;
+  flex-wrap: wrap;  
+  border-radius: 10px;
   background-color: #2882F6;
   color: #F9FAF8;
 }
 
 .footer {
   display: flex;
-  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 75px;
 }
